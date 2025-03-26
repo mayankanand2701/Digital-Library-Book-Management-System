@@ -36,10 +36,10 @@ The Digital Library Book Management System is a console-based Java application t
 
 ## Installation and Setup
 ### Prerequisites
-- Ensure you have the following installed on your system:
-- Java JDK 8 or later
-- Git (for cloning the repository)
-- An IDE (Eclipse, IntelliJ IDEA, or VS Code with Java extension)
+- Ensure you have the following installed on your system :
+  - Java JDK 8 or later
+  - Git (for cloning the repository)
+  - An IDE (Eclipse, IntelliJ IDEA, or VS Code with Java extension)
 
 ### Steps to Run the Program
 #### 1.Clone the repository :
