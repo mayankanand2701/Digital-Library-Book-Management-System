@@ -4,12 +4,16 @@ public class Main
 	public static void main(String[] args)
 	{
 		Scanner sc=new Scanner(System.in);
+		
+		// Creating Object to call the various methods present inside Method Class
 		Methods library=new Methods();
+		
 		System.out.println("-------------------------------------------------");
 		System.out.println("Welcome to Digital Library Book Management System");
 		System.out.println("-------------------------------------------------");
 		while(true)
 		{
+			System.out.println("-------------------------------------------------");
 			System.out.println("Enter 1 to Add a Book to the Library.");
 			System.out.println("Enter 2 to Display all the Book's in the Library.");
 			System.out.println("Enter 3 to Search a Book by Id or Title.");
@@ -18,6 +22,7 @@ public class Main
 			System.out.println("Enter 6 to Exit.");
 			System.out.println("Enter Your Choice : ");
 			int choice=sc.nextInt();
+			sc.nextLine();
 			System.out.println("-------------------------------------------------");
 			
 			switch(choice)

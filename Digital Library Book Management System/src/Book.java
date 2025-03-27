@@ -20,8 +20,8 @@ public class Book
 	// To print the Book Details
 	@Override
 	public String toString() {
-		return "Book [bookId=" + bookId + ", title=" + title + ", author=" + author + ", genre=" + genre
-				+ ", availabilityStatus=" + availabilityStatus + "]";
+		return "Book [bookId = " + bookId + ", title = " + title + ", author = " + author + ", genre = " + genre
+				+ ", availabilityStatus = " + availabilityStatus + "]";
 	}
 	
 	// Getters & Setters
