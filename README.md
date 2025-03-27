@@ -30,6 +30,7 @@ The Digital Library Book Management System is a console-based Java application t
 - Availability status must be either "Available" or "Checked Out".
 
 ## Assumptions
+- The Book ID must be a numeric value.
 - The application is designed for a single-user environment (librarian usage).
 - Books are stored in an in-memory collection (ArrayList) in this implementation.
 - No database connectivity in the current version; data is lost upon restarting the application.
